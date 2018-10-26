@@ -1,0 +1,68 @@
+{
+  "totalCount": "1",
+  "imdata": [
+    {
+      "fvBD": {
+        "attributes": {
+          "arpFlood": "no",
+          "descr": "",
+          "dn": "uni/tn-TEST_TENANT/BD-BRIDGE_DOMAIN_TEST",
+          "epMoveDetectMode": "",
+          "limitIpLearnToSubnets": "no",
+          "llAddr": "::",
+          "mac": "AA:AA:BB:BB:CC:CC",
+          "multiDstPktAct": "bd-flood",
+          "name": "BRIDGE_DOMAIN_TEST",
+          "ownerKey": "",
+          "ownerTag": "",
+          "unicastRoute": "yes",
+          "unkMacUcastAct": "proxy",
+          "unkMcastAct": "flood"
+        },
+        "children": [
+          {
+            "fvRsBDToNdP": {
+              "attributes": {
+                "tnNdIfPolName": ""
+              }
+            }
+          },
+          {
+            "fvRsCtx": {
+              "attributes": {
+                "tnFvCtxName": ""
+              }
+            }
+          },
+          {
+            "fvRsIgmpsn": {
+              "attributes": {
+                "tnIgmpSnoopPolName": ""
+              }
+            }
+          },
+          {
+            "fvSubnet": {
+              "attributes": {
+                "ctrl": "",
+                "descr": "",
+                "ip": "10.1.1.1/24",
+                "name": "",
+                "preferred": "no",
+                "scope": "private"
+              }
+            }
+          },
+          {
+            "fvRsBdToEpRet": {
+              "attributes": {
+                "resolveAct": "resolve",
+                "tnFvEpRetPolName": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
